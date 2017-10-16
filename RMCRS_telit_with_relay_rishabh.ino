@@ -101,6 +101,7 @@ byte GSMSignalStrength = 0;         //Signal Strength
 String GSMSendRechargeData = "";         //Recharge String
 String GSMSendPumpData = "";         //Transaction String
 String GSMSendLocationData = "";          //Location String
+bool x;
 unsigned long GSMCheckTime = 300000;         //Time to send new data to server (in MilliSeconds)
 unsigned long GSMLocationTime = (GSMCheckTime / 2);         //Time to send new location data to server (in MilliSeconds)
 unsigned long GSMLastTime = 0;         //Last time GSM sent new data to server
